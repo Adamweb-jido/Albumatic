@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android">
+    <svg width="375" height="747" viewBox="0 0 375 747" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="375" height="747" fill="url(#paint0_linear_10_202)"/>
+            <linearGradient id="paint0_linear_10_202" x1="187.5" y1="0" x2="187.5" y2="747" gradientUnits="userSpaceOnUse">
+                <stop offset="0.00446429" stop-opacity="0"/>
+                <stop offset="1"/>
+            </linearGradient>
+    </svg>
+</vector>
