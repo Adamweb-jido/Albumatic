@@ -245,10 +245,10 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Log In"
+        android:text="LogIn"
         android:textColor="#BDEDFF"
         android:textFontWeight="900"
         android:textSize="30sp"

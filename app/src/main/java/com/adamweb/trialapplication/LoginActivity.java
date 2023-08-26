@@ -9,17 +9,22 @@ import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
 
+    public void myButton(View v){
+        Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        TextView registerPage = (TextView) findViewById(R.id.register);
-        registerPage.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_login);
+        TextView textView = (TextView) findViewById(R.id.register);
+        textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
                 startActivity(intent);
             }
         });
-        setContentView(R.layout.activity_login);
     }
 }
