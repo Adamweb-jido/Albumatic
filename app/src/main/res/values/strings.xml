@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Sarco Pixel</string>
     <string name="link">Register</string>
+    <string name="login">Login</string>
+    <string name="forget">Forgot Password?</string>
 </resources>
