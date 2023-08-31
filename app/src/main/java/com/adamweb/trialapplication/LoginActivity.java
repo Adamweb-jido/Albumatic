@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        forget = (TextView) findViewById(R.id.forgetPassword);
+       /* forget = (TextView) findViewById(R.id.forgetPassword);
          textView = (TextView) findViewById(R.id.register);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +34,6 @@ public class LoginActivity extends AppCompatActivity {
              Intent intent = new Intent(getApplicationContext(), ForgetPassActivity.class);
              startActivity(intent);
          }
-     });
+     });*/
     }
 }
