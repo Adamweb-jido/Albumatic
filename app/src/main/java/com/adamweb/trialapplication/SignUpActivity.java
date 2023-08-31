@@ -13,7 +13,7 @@ public class SignUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-        TextView textView = (TextView) findViewById(R.id.loginLink);
+        TextView textView = (TextView) findViewById(R.id.loginText);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

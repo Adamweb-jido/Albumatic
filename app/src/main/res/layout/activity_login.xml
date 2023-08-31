@@ -88,10 +88,10 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/forgetPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forgot Password?"
+        android:text="@string/forget"
         android:textSize="20sp"
         android:textColor="#FFD5AA"
         android:fontFamily="@font/baloo_chettan"
@@ -106,6 +106,7 @@
         android:id="@+id/button"
         android:layout_width="298dp"
         android:layout_height="48dp"
+        android:layout_marginBottom="172dp"
         android:background="@drawable/my_btn"
         android:fontFamily="@font/baloo_chettan"
         android:text="Login"
@@ -115,8 +116,9 @@
         app:layout_constraintEnd_toEndOf="@+id/textView6"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.092" />
+
+        app:layout_constraintTop_toBottomOf="@+id/forgetPassword"
+        app:layout_constraintVertical_bias="0.823" />
 
     <TextView
         android:id="@+id/textView12"
@@ -134,7 +136,7 @@
         app:layout_constraintVertical_bias="0.342" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/link"
