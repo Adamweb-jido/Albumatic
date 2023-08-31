@@ -13,22 +13,51 @@
         android:layout_width="416dp"
         android:layout_height="70dp"
         android:orientation="horizontal"
+        android:background="#CBB67D"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/myTopMenu"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#CBB67D"
-            app:menu="@menu/top_menu" />
+        <ImageView
+            android:id="@+id/newsFeedIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/news_feed_icon" />
+
+        <ImageView
+            android:id="@+id/peopleIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/find_people_icon" />
+
+        <ImageView
+            android:id="@+id/notificationIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/notification_icon" />
+
+        <ImageView
+            android:id="@+id/menuIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/menu_icon" />
+
 
     </LinearLayout>
 
     <FrameLayout
         android:layout_width="409dp"
         android:layout_height="608dp"
+        android:id="@+id/myContainer"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +77,10 @@
             android:id="@+id/myBottomMenu"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            app:itemIconTint="@color/black"
             android:background="#CBB67D"
+            app:itemTextColor="@color/black"
+            app:itemIconSize="25dp"
             app:menu="@menu/bottom_menu" />
 
 

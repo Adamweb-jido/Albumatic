@@ -109,6 +109,7 @@
         android:background="@drawable/my_btn"
         android:fontFamily="@font/baloo_chettan"
         android:text="Login"
+        android:onClick="myButton"
         android:textAllCaps="false"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"

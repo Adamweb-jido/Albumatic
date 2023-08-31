@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class LoginActivity extends AppCompatActivity {
      TextView forget, register;
     public void myButton(View v){
-        Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
+        Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
         startActivity(intent);
     }
 
