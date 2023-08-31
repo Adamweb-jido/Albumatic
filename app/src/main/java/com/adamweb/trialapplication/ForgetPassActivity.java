@@ -13,8 +13,8 @@ public class ForgetPassActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forget_pass);
-        TextView textView = (TextView) findViewById(R.id.loginLink);
-        textView.setOnClickListener(new View.OnClickListener() {
+        TextView loginLink  = findViewById(R.id.myLoginLink);
+        loginLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
