@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:id="@+id/messagePass"
+        android:icon="@drawable/message_icon"
+        android:title="messages"
+        android:iconTint="#00008B" />
+
+    <item android:id="@+id/homeTab"
+        android:icon="@drawable/home_icon"
+        android:title="Home"
+        android:iconTint="#00008B" />
+
+    <item android:id="@+id/profile"
+        android:icon="@drawable/profie_icon"
+        android:title="Profile"
+        android:iconTint="#00008B" />
 </menu>
