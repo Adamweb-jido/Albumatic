@@ -9,6 +9,10 @@ import android.widget.TextView;
 
 public class ForgetPassActivity extends AppCompatActivity {
 
+    public  void submitBtn(View view){
+        Intent intent = new Intent(getApplicationContext(), CreatePassword.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -78,6 +78,7 @@
         android:background="@drawable/my_btn"
         android:fontFamily="@font/baloo_chettan"
         android:text="Submit"
+        android:onClick="submitBtn"
         android:textAllCaps="false"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
