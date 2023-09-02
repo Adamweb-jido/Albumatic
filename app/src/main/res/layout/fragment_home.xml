@@ -111,7 +111,7 @@
                 app:layout_constraintHorizontal_bias="0.639"
                 app:layout_constraintStart_toEndOf="@+id/textView10"
                 app:layout_constraintTop_toTopOf="@+id/view"
-                app:layout_constraintVertical_bias="0.695" />
+                app:layout_constraintVertical_bias="1.0" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -279,12 +279,14 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
+                android:background="#CBB67D"
                 android:layout_marginLeft="15dp"
                 app:cardCornerRadius="15dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#CBB67D"
                     android:src="@drawable/computer" />
 
             </androidx.cardview.widget.CardView>
@@ -293,11 +295,13 @@
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="15dp"
+                android:background="#CBB67D"
                 app:cardCornerRadius="15dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#CBB67D"
                     android:src="@drawable/chemistry" />
 
             </androidx.cardview.widget.CardView>
