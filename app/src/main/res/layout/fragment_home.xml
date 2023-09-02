@@ -139,8 +139,8 @@
 
                 <ImageView
                     android:id="@+id/imageView15"
-                    android:layout_width="330dp"
-                    android:layout_height="150dp"
+                    android:layout_width="335dp"
+                    android:layout_height="219dp"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:src="@drawable/imagefr" />
@@ -310,11 +310,13 @@
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="15dp"
+                android:background="#CBB67D"
                 app:cardCornerRadius="15dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#CBB67D"
                     android:src="@drawable/book" />
 
             </androidx.cardview.widget.CardView>
@@ -322,12 +324,14 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
+                android:background="#CBB67D"
                 android:layout_marginLeft="15dp"
                 app:cardCornerRadius="15dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#CBB67D"
                     android:src="@drawable/mancomputer" />
 
             </androidx.cardview.widget.CardView>
@@ -366,12 +370,14 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="110dp"
                     android:layout_height="match_parent"
+                    android:background="#CBB67D"
                     android:layout_marginLeft="25dp"
                     app:cardCornerRadius="15dp">
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="#CBB67D"
                         android:src="@drawable/dpprofile" />
 
                     <TextView
