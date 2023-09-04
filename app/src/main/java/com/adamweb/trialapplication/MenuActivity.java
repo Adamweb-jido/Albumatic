@@ -3,8 +3,11 @@ package com.adamweb.trialapplication;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -14,6 +17,7 @@ public class MenuActivity extends AppCompatActivity {
     HomeFragment homeFragment = new HomeFragment();
     MessagesFragment messagesFragment = new MessagesFragment();
     ProfileFragment profileFragment = new ProfileFragment();
+    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +42,15 @@ public class MenuActivity extends AppCompatActivity {
                         return true;
                 }
                 return false;
+            }
+        });
+
+        imageView = findViewById(R.id.newsFeedIcon);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), PeopleActivity.class);
+                startActivity(intent);
             }
         });
     }
