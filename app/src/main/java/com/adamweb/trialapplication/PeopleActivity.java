@@ -14,21 +14,12 @@ import java.util.List;
 
 public class PeopleActivity extends AppCompatActivity {
 
-
-    ImageView imageView;
     RecyclerView recyclerView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_people);
-        imageView = findViewById(R.id.backArrow);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(PeopleActivity.this, MenuActivity.class);
-                startActivity(intent);
-            }
-        });
+
      List<DataItem> items = new ArrayList<DataItem>();
      items.add(new DataItem("Adam Ibrahim Yau", "Csc/01/19/0001", "Com/Chem", 2, R.drawable.photoalbum));
         items.add(new DataItem("Adam Ibrahim Yau", "Csc/01/19/0001", "Com/Chem", 2, R.drawable.photoalbum));
