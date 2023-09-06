@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -15,9 +15,10 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="86dp"
-            android:layout_height="match_parent"
             android:id="@+id/arrowBack"
+            android:layout_width="70dp"
+            android:layout_gravity="center"
+            android:layout_height="40dp"
             android:src="@drawable/ic_baseline_arrow_back_24" />
 
         <TextView
@@ -31,23 +32,26 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="320dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/search_box"
-        android:ems="10"
+        android:id="@+id/searchBox"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+       android:layout_margin="15dp"
+        android:hint="Search your friends here"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
         android:textColor="@color/white"
-        android:hint="Search your friend name here"
         android:textColorHint="@color/white"
-        android:elevation="15dp"
-        android:fontFamily="@font/baloo_chettan"
-        android:padding="10dp"
+        android:textStyle="bold"
         android:drawableEnd="@drawable/search_icon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+        android:background="@drawable/search_box"
+        android:layout_below="@id/linearLayout3"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchBox"
+        android:id="@+id/listPeople"/>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
