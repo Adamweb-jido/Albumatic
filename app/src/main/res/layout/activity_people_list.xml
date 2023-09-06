@@ -26,8 +26,28 @@
             android:layout_marginLeft="30sp"
             android:fontFamily="@font/calistoga"
             android:text="Find Your Mate"
-            android:textColor="#EE9A4D"
+            android:textColor="#CBB67D"
             android:textSize="30sp" />
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/search_box"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:hint="Search your friend name here"
+        android:textColorHint="@color/white"
+        android:elevation="15dp"
+        android:fontFamily="@font/baloo_chettan"
+        android:padding="10dp"
+        android:drawableEnd="@drawable/search_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
