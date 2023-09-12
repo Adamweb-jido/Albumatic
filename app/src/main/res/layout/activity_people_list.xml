@@ -35,16 +35,21 @@
         android:id="@+id/searchBox"
         android:layout_width="350dp"
         android:layout_height="50dp"
-       android:layout_margin="15dp"
+        android:layout_below="@id/linearLayout3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/search_box"
+        android:drawableEnd="@drawable/search_icon"
         android:hint="Search your friends here"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:textStyle="bold"
-        android:drawableEnd="@drawable/search_icon"
-        android:background="@drawable/search_box"
-        android:layout_below="@id/linearLayout3"/>
+        android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
