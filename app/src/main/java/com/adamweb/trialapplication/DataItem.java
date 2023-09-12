@@ -1,8 +1,20 @@
 package com.adamweb.trialapplication;
 
 public class DataItem {
-    String name, admissionNumber, combination;
-    int phoneNumber, image;
+    String name;
+    String admissionNumber;
+    String combination;
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    String phoneNumber;
+    int image;
 
     public String getName() {
         return name;
@@ -28,13 +40,6 @@ public class DataItem {
         this.combination = combination;
     }
 
-    public int getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(int phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
 
     public int getImage() {
         return image;
@@ -44,7 +49,7 @@ public class DataItem {
         this.image = image;
     }
 
-    public DataItem(String name, String admissionNumber, String combination, int phoneNumber, int image) {
+    public DataItem(String name, String admissionNumber, String combination, String phoneNumber, int image) {
         this.name = name;
         this.admissionNumber = admissionNumber;
         this.combination = combination;

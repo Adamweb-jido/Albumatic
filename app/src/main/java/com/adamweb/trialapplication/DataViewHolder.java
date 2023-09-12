@@ -13,10 +13,10 @@ public class DataViewHolder extends RecyclerView.ViewHolder {
     TextView name, admNo, comb, phoneNo;
     public DataViewHolder(@NonNull View itemView) {
         super(itemView);
-        coverImage = itemView.findViewById(R.id.albumCover);
-        name = itemView.findViewById(R.id.yourName);
-        admNo = itemView.findViewById(R.id.admNo);
-        comb = itemView.findViewById(R.id.combination);
-        phoneNo = itemView.findViewById(R.id.phoneNo);
+    coverImage = itemView.findViewById(R.id.albumCover);
+    name = itemView.findViewById(R.id.yourName);
+    comb = itemView.findViewById(R.id.combination);
+    admNo = itemView.findViewById(R.id.admNo);
+    phoneNo = itemView.findViewById(R.id.phoneNo);
     }
 }

@@ -28,10 +28,10 @@ public class DataAdapter extends RecyclerView.Adapter<DataViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull DataViewHolder holder, int position) {
-        holder.name.setText(items.get(position).getName());
+       holder.name.setText(items.get(position).getName());
         holder.admNo.setText(items.get(position).getAdmissionNumber());
         holder.comb.setText(items.get(position).getCombination());
-//        holder.phoneNo.setText(items.get(position).getPhoneNumber());
+        holder.phoneNo.setText(items.get(position).getPhoneNumber());
         holder.coverImage.setImageResource(items.get(position).getImage());
     }
 
