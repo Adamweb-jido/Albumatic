@@ -38,8 +38,8 @@
                     android:id="@+id/circleImageView"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:layout_marginTop="16dp"
-                    android:src="@drawable/userprofile"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/adampro"
                     app:civ_border_color="#283E51"
                     app:civ_border_width="5dp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -138,9 +138,9 @@
                          <com.appbroker.roundedimageview.RoundedImageView
                              android:layout_width="match_parent"
                              android:layout_height="match_parent"
-                             android:scaleType="fitXY"
                              app:radius="10dp"
-                             android:src="@drawable/imgschool1"/>
+                             android:src="@drawable/imagefr"
+                             android:scaleType="fitXY"/>
                      </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
                         android:layout_width="380dp"
@@ -155,7 +155,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="fitXY"
                             app:radius="10dp"
-                            android:src="@drawable/imgschool1"/>
+                            android:src="@drawable/image_fr"/>
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
                         android:layout_width="380dp"
@@ -170,7 +170,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="fitXY"
                             app:radius="10dp"
-                            android:src="@drawable/imgschool1"/>
+                            android:src="@drawable/image_fr2"/>
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
                         android:layout_width="380dp"
