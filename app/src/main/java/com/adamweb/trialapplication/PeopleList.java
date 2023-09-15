@@ -35,23 +35,6 @@ public class PeopleList extends AppCompatActivity {
         items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
         items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
         items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
-        items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));
 
         recyclerView = findViewById(R.id.listPeople);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
