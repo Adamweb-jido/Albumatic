@@ -68,65 +68,197 @@
                 android:layout_height="match_parent">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2"
                     android:layout_width="match_parent"
                     android:layout_height="170dp"
                     android:layout_marginTop="10dp"
-                    app:cardCornerRadius="5dp"
                     app:cardBackgroundColor="#CBB67D"
+                    app:cardCornerRadius="5dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" >
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/myProfile"
                         android:layout_width="110dp"
                         android:layout_height="110dp"
                         android:layout_gravity="end"
-                        app:civ_border_width="5dp"
                         android:layout_margin="15dp"
-                        app:civ_border_color="#283E51"
                         android:src="@drawable/adampro"
-                        android:id="@+id/myProfile"/>
+                        app:civ_border_color="#283E51"
+                        app:civ_border_width="5dp" />
 
                     <TextView
+                        android:id="@+id/myName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
                         android:layout_marginStart="30dp"
-                        android:textColor="#283E51"
-                        android:text="Hi! Adam."
-                        android:textSize="35dp"
-                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
                         android:fontFamily="@font/calistoga"
-                        android:id="@+id/myName"/>
+                        android:text="Hi! Adam."
+                        android:textColor="#283E51"
+                        android:textSize="35dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="25sp"
-                        android:text="Welcome to Albumatic"
                         android:layout_gravity="bottom"
-                        android:layout_marginBottom="50dp"
                         android:layout_marginStart="10dp"
-                        android:textStyle="bold"
+                        android:layout_marginBottom="50dp"
                         android:fontFamily="@font/berkshire_swash"
-                        android:textColor="#283E51"/>
+                        android:text="Welcome to Albumatic"
+                        android:textColor="#283E51"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
 
                     <TextView
                         android:layout_width="250dp"
                         android:layout_height="wrap_content"
-                        android:text="Total visits: 232x"
                         android:layout_gravity="bottom|center"
-                        android:textSize="25sp"
                         android:layout_marginBottom="5dp"
-                        android:textStyle="bold"
                         android:background="@drawable/welcome_note_bg"
-                        android:textColor="#CBB67D"
+                        android:fontFamily="@font/baloo_chettan"
+                        android:text="Total visits: 232x"
                         android:textAlignment="center"
-                        android:fontFamily="@font/baloo_chettan"/>
+                        android:textColor="#CBB67D"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
                 </androidx.cardview.widget.CardView>
 
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="24dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardBackgroundColor="#F2DABC"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView2" >
 
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/cardbg"
+                        android:alpha="0.7"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/calistoga"
+                        android:text="School Life Is So Special"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:layout_marginTop="35dp"
+                        android:fontFamily="@font/galada"
+                        android:text="Let's Share Some Memories"/>
+                </androidx.cardview.widget.CardView>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="330dp"
+                            android:layout_height="200dp"
+                            android:layout_marginStart="10dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardBackgroundColor="#CBB67D">
+
+                            <com.appbroker.roundedimageview.RoundedImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:radius="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/imagefr"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="330dp"
+                            android:layout_height="200dp"
+                            android:layout_marginStart="10dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardBackgroundColor="#CBB67D">
+
+                            <com.appbroker.roundedimageview.RoundedImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:radius="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/image_fr2"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="330dp"
+                            android:layout_height="200dp"
+                            android:layout_marginStart="10dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardBackgroundColor="#CBB67D">
+
+                            <com.appbroker.roundedimageview.RoundedImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:radius="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/image4"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="330dp"
+                            android:layout_height="200dp"
+                            android:layout_marginStart="10dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardBackgroundColor="#CBB67D">
+
+                            <com.appbroker.roundedimageview.RoundedImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:radius="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/image3"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="330dp"
+                            android:layout_height="200dp"
+                            android:layout_marginStart="10dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardBackgroundColor="#CBB67D">
+
+                            <com.appbroker.roundedimageview.RoundedImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:radius="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/image_fr"/>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
             </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 
