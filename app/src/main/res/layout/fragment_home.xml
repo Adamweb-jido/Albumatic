@@ -118,13 +118,15 @@
                         android:text="Total visits: 232x"
                         android:layout_gravity="bottom|center"
                         android:textSize="25sp"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginBottom="5dp"
                         android:textStyle="bold"
-                        android:background="#283E51"
+                        android:background="@drawable/welcome_note_bg"
                         android:textColor="#CBB67D"
                         android:textAlignment="center"
-                        android:fontFamily="@font/baloo_chettan"
+                        android:fontFamily="@font/baloo_chettan"/>
                 </androidx.cardview.widget.CardView>
+
+
             </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 
