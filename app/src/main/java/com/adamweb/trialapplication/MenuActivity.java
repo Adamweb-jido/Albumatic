@@ -17,7 +17,7 @@ public class MenuActivity extends AppCompatActivity {
     HomeFragment homeFragment = new HomeFragment();
     MessagesFragment messagesFragment = new MessagesFragment();
     ProfileFragment profileFragment = new ProfileFragment();
-    ImageView imageView, peopleList;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,22 +45,5 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-        imageView = findViewById(R.id.newsFeedIcon);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), PeopleActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        peopleList = findViewById(R.id.peopleIcon);
-        peopleList.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), PeopleList.class);
-                startActivity(intent);
-            }
-        });
     }
 }
