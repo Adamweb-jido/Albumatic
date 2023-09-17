@@ -17,24 +17,28 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-        imageView = findViewById(R.id.newsFeedIcon);
+
+
+        imageView = view.findViewById(R.id.newsFeedIcon);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), PeopleActivity.class);
+                Intent intent = new Intent(getActivity(),  PeopleActivity.class);
                 startActivity(intent);
             }
         });
 
-        peopleList = findViewById(R.id.peopleIcon);
+        peopleList = view.findViewById(R.id.peopleIcon);
         peopleList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), PeopleList.class);
+                Intent intent = new Intent(getActivity(),  PeopleList.class);
                 startActivity(intent);
             }
         });
+
+        return view;
     }
 }
