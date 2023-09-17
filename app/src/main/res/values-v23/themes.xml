@@ -1,5 +1,6 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
     <style name="Theme.TrialApplication" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
@@ -12,9 +13,9 @@
         <item name="color">@color/status_bar_color</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        
+
         <!-- Customize Your Bottom Nav Bar -->
-        
+
         <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize Your Bottom Nav Bar -->
         <item name="android:windowLightStatusBar">@color/status_bar_color</item>
