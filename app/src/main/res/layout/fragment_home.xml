@@ -359,9 +359,10 @@
                             app:cardElevation="2dp"
                             android:layout_margin="8dp">
 
-                            <ImageView
+                            <com.appbroker.roundedimageview.RoundedImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
+                                app:radius="10dp"
                                 android:src="@drawable/dpprofile"/>
                             
                         </androidx.cardview.widget.CardView>
@@ -374,8 +375,9 @@
                             app:cardElevation="2dp"
                             android:layout_margin="8dp">
 
-                            <androidx.constraintlayout.utils.widget.ImageFilterView
+                            <com.appbroker.roundedimageview.RoundedImageView
                                 android:layout_width="match_parent"
+                                app:radius="10dp"
                                 android:layout_height="match_parent"
                                 android:src="@drawable/dpprofile"/>
                         </androidx.cardview.widget.CardView>
@@ -388,9 +390,10 @@
                             app:cardElevation="2dp"
                             android:layout_margin="8dp">
 
-                            <ImageView
+                            <com.appbroker.roundedimageview.RoundedImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
+                                app:radius="10dp"
                                 android:src="@drawable/dpprofile"/>
 
                         </androidx.cardview.widget.CardView>
