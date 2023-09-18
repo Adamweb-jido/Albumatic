@@ -298,6 +298,10 @@
                             app:cardElevation="2dp"
                             android:layout_margin="8dp">
 
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/computer"/>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
                             android:layout_width="120dp"
@@ -308,6 +312,10 @@
                             app:cardElevation="2dp"
                             android:layout_margin="8dp">
 
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/chemistry"/>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
                             android:layout_width="120dp"
@@ -318,6 +326,10 @@
                             app:cardElevation="2dp"
                             android:layout_margin="8dp">
 
+                            <androidx.constraintlayout.utils.widget.ImageFilterView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/books"/>
                         </androidx.cardview.widget.CardView>
 
 
@@ -347,6 +359,11 @@
                             app:cardElevation="2dp"
                             android:layout_margin="8dp">
 
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/dpprofile"/>
+                            
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
                             android:layout_width="120dp"
@@ -357,6 +374,10 @@
                             app:cardElevation="2dp"
                             android:layout_margin="8dp">
 
+                            <androidx.constraintlayout.utils.widget.ImageFilterView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/dpprofile"/>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
                             android:layout_width="120dp"
@@ -366,6 +387,11 @@
                             app:cardBackgroundColor="#F2DABC"
                             app:cardElevation="2dp"
                             android:layout_margin="8dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/dpprofile"/>
 
                         </androidx.cardview.widget.CardView>
 
@@ -406,9 +432,10 @@
                              <TextView
                                  android:layout_width="match_parent"
                                  android:layout_height="wrap_content"
-                                 android:text="Trace some exciting \n stories On what Happened \n during our school"
-                                 android:textSize="20sp"
-                                 android:layout_marginStart="5dp"
+                                 android:textSize="15sp"
+                                 android:text="     Trace some exciting \n                  stories On what Happened \n     during our school."
+                                 android:textStyle="bold|bold|bold"
+                                 android:layout_marginStart="25dp"
                                  android:layout_marginTop="10dp"
                                  android:textColor="#283E51"
                                  android:textAlignment="center"/>
@@ -424,6 +451,17 @@
                                 android:layout_width="120dp"
                                 android:layout_height="match_parent"
                                 android:src="@drawable/computerlib"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="     Meet your mates \n       to help you learn \n     a digital skills."
+                                android:textSize="15sp"
+                                android:textStyle="bold|bold|bold"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#283E51"
+                                android:textAlignment="center"/>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
                             android:layout_width="330dp"
@@ -436,6 +474,17 @@
                                 android:layout_width="120dp"
                                 android:layout_height="match_parent"
                                 android:src="@drawable/read"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:text="       Discover helpful tips \n     on how to build  \n         a successful career ."
+                                android:textStyle="bold|bold|bold"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#283E51"
+                                android:textAlignment="center"/>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
                             android:layout_width="330dp"
@@ -449,6 +498,17 @@
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="5dp"
                                 android:src="@drawable/library"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:textStyle="bold|bold|bold"
+                                android:text="     Learning is a continues \n      process, here is a mini \n             library to help your journey."
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#283E51"
+                                android:textAlignment="center"/>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
                             android:layout_width="330dp"
@@ -460,13 +520,38 @@
                             <ImageView
                                 android:layout_width="120dp"
                                 android:layout_height="match_parent"
-                                android:src="@drawable/history"/>
+                                android:src="@drawable/practice"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="     TeamWork is a great \n             way to to achieve a task \n    join your mates' \n community Now!."
+                                android:textSize="15sp"
+                                android:textStyle="bold|bold|bold"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#283E51"
+                                android:textAlignment="center"/>
                         </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:text="let's be together Always"
+                            android:background="@drawable/welcome_note_bg"
+                            android:textSize="15sp"
+                           android:paddingStart="10dp"
+                            android:textStyle="bold|bold|italic"
+                            android:textColor="#fff"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="-5dp"
+                            android:layout_gravity="end|bottom"/>
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="150dp"
+                        android:layout_height="100dp"
                         android:orientation="vertical"/>
                 </LinearLayout>
 
