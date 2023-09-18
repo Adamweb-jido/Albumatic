@@ -392,8 +392,8 @@
                             android:textColor="#F2DABC"/>
 
                         <androidx.cardview.widget.CardView
-                            android:layout_width="200dp"
-                            android:layout_height="80dp"
+                            android:layout_width="330dp"
+                            android:layout_height="100dp"
                             app:cardUseCompatPadding="true"
                             app:cardCornerRadius="10dp"
                             android:layout_gravity="center">
