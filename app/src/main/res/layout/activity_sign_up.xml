@@ -160,7 +160,6 @@
         android:background="@drawable/my_btn"
         android:textSize="25sp"
         android:textAllCaps="false"
-        aaaaaaa
         android:fontFamily="@font/baloo_chettan"
         android:text="@string/register"
         android:onClick="menuButton"
