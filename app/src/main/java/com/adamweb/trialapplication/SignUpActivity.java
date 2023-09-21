@@ -9,6 +9,11 @@ import android.widget.TextView;
 
 public class SignUpActivity extends AppCompatActivity {
 
+    public void menuButton(View view) {
+        Intent intent = new Intent(SignUpActivity.this, MenuActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,10 +26,5 @@ public class SignUpActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
-
-    public void menuButton(View view) {
-        Intent intent = new Intent(SignUpActivity.this, MenuActivity.class);
-        startActivity(intent);
     }
 }
