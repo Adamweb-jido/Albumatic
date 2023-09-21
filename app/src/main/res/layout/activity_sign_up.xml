@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:alpha="0.8"
         android:fontFamily="@font/baloo_chettan"
-        android:text="Create new Account"
+        android:text="@string/create_new_account"
         android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,8 +30,9 @@
         android:layout_height="48dp"
         android:background="@drawable/text_field"
         android:fontFamily="@font/baloo_chettan"
-        android:hint="Full Name"
-        android:paddingLeft="15dp"
+        android:hint="@string/full_name"
+        android:paddingStart="15dp"
+        android:paddingEnd="1dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:ems="10"
@@ -41,7 +42,8 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.036" />
+        app:layout_constraintVertical_bias="0.036"
+        android:autofillHints="your name" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -51,9 +53,10 @@
         android:background="@drawable/text_field"
         android:ems="10"
         android:fontFamily="@font/baloo_chettan"
-        android:hint="Email:"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="1dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,7 +64,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:autofillHints="email" />
 
     <EditText
         android:id="@+id/editTextPhone"
@@ -71,9 +75,10 @@
         android:background="@drawable/text_field"
         android:ems="10"
         android:fontFamily="@font/baloo_chettan"
-        android:hint="Phone Number"
+        android:hint="@string/phone_number"
         android:inputType="phone"
-        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="1dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,7 +86,8 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:autofillHints="phone Number" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -91,9 +97,10 @@
         android:background="@drawable/text_field"
         android:ems="10"
         android:fontFamily="@font/baloo_chettan"
-        android:hint="Create Password"
+        android:hint="@string/create_password"
         android:inputType="textPassword"
-        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="1dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -101,7 +108,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextPhone"
         app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
-        app:layout_constraintVertical_bias="0.007" />
+        app:layout_constraintVertical_bias="0.007"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -110,9 +118,10 @@
         android:background="@drawable/text_field"
         android:ems="10"
         android:fontFamily="@font/baloo_chettan"
-        android:hint="Confirm Password"
+        android:hint="@string/confirm_password"
         android:inputType="textPassword"
-        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="1dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -120,7 +129,8 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.04"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextPhone2"
@@ -129,9 +139,10 @@
         android:background="@drawable/text_field"
         android:ems="10"
         android:fontFamily="@font/baloo_chettan"
-        android:hint="Serial No.:"
+        android:hint="@string/serial_no"
         android:inputType="phone"
-        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="1dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -139,7 +150,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
-        app:layout_constraintVertical_bias="0.042" />
+        app:layout_constraintVertical_bias="0.042"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button2"
@@ -149,7 +161,8 @@
         android:textSize="25sp"
         android:textAllCaps="false"
         android:fontFamily="@font/baloo_chettan"
-        android:text="Register"
+        android:text="@string/register"
+        android:onClick="menuButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTextPhone2"
         app:layout_constraintStart_toStartOf="@+id/editTextPhone2"
@@ -161,7 +174,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/baloo_chettan"
-        android:text="Already have an account?"
+        android:text="@string/already_have_an_account"
         android:textColor="#FFD5AA"
         android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
