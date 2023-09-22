@@ -1,13 +1,12 @@
 package com.adamweb.trialapplication;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.ImageView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,12 +19,9 @@ public class PeopleList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_people_list);
         imageView = findViewById(R.id.arrowBack);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
-                startActivity(intent);
-            }
+        imageView.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
+            startActivity(intent);
         });
         List<ItemPeopleList> items = new ArrayList<>();
         items.add(new ItemPeopleList("Adamu Ibrahim Ya'u", "Realadamweb@gmail.com",R.drawable.adampro));

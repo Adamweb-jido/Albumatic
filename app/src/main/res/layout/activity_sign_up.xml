@@ -162,7 +162,6 @@
         android:textAllCaps="false"
         android:fontFamily="@font/baloo_chettan"
         android:text="@string/register"
-        android:onClick="menuButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTextPhone2"
         app:layout_constraintStart_toStartOf="@+id/editTextPhone2"

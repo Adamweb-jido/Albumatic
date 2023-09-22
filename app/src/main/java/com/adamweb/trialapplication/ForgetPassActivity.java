@@ -18,12 +18,9 @@ public class ForgetPassActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forget_pass);
         TextView loginLink  = findViewById(R.id.myLoginLink);
-        loginLink.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-                startActivity(intent);
-            }
+        loginLink.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+            startActivity(intent);
         });
     }
 }

@@ -142,7 +142,7 @@
         android:background="#FAF0E6"
         android:fontFamily="@font/squada_one"
         android:text="@string/link"
-        android:textColor="#FF33AA"
+        android:textColor="#EC407A"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="@+id/button"

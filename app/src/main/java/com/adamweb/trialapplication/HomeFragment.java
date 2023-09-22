@@ -22,21 +22,15 @@ public class HomeFragment extends Fragment {
 
 
         imageView = view.findViewById(R.id.newsFeedIcon);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(),  PeopleActivity.class);
-                startActivity(intent);
-            }
+        imageView.setOnClickListener(view1 -> {
+            Intent intent = new Intent(getActivity(),  PeopleActivity.class);
+            startActivity(intent);
         });
 
         peopleList = view.findViewById(R.id.peopleIcon);
-        peopleList.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(),  PeopleList.class);
-                startActivity(intent);
-            }
+        peopleList.setOnClickListener(view12 -> {
+            Intent intent = new Intent(getActivity(),  PeopleList.class);
+            startActivity(intent);
         });
 
         return view;

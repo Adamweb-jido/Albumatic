@@ -18,19 +18,11 @@
     <string name="discover_helpful_tips_n_on_how_to_build_n_a_successful_career">Discover helpful tips \n on how to build \n a successful career .</string>
     <string name="learning_is_a_continues_n_process_here_is_a_mini_n_library_to_help_your_journey">Learning is a continues \n process, here is a mini \n library to help your journey.</string>
     <string name="todo">TODO</string>
-    <string name="todoa">TODO</string>
-    <string name="todos">TODO</string>
-    <string name="todow">TODO</string>
-    <string name="todod">TODO</string>
-    <string name="todoee">TODO</string>
-    <string name="todowa">TODO</string>
     <string name="notifications">notifications</string>
     <string name="album">album</string>
     <string name="menu">menu</string>
-    <string name="todob">TODO</string>
-    <string name="teamwork_is_a_great_n_way_to_to_achieve_a_task_n_join_your_mates_n_community_now">TeamWork is a great \n way to to achieve a task \n join your mates\' \n community Now!.</string>
+    <string name="teamwork_is_a_great_n_way_to_to_achieve_a_task_n_join_your_mates_n_community_now">TeamWork is a great \n way to achieve a task \n join your mates\' \n community Now!.</string>
     <string name="let_s_be_together_always">let\'s be together Always</string>
-    <string name="todoss">TODO</string>
     <string name="create_new_account">Create new Account</string>
     <string name="full_name">Full Name</string>
     <string name="email">Email:</string>
@@ -40,4 +32,11 @@
     <string name="serial_no">Serial No.:</string>
     <string name="register">Register</string>
     <string name="already_have_an_account">Already have an account?</string>
+    <string name="create_new_password">Create New Password</string>
+    <string name="enter_the_varfication_code">Enter the varfication code</string>
+    <string name="create">Create</string>
+    <string name="photo_albuma">Photo Album</string>
+    <string name="find_your_mate">Find Your Mate</string>
+    <string name="search_your_friends_here">Search your friends here</string>
+    <string name="profile">Your Profile</string>
 </resources>

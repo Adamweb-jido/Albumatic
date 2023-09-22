@@ -25,7 +25,7 @@
             android:layout_marginTop="8dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/news_feed_icon"
-            android:contentDescription="@string/todob" />
+            android:contentDescription="@string/todo" />
 
         <ImageView
             android:id="@+id/peopleIcon"
@@ -149,7 +149,7 @@
                         android:layout_height="match_parent"
                         android:src="@drawable/cardbg"
                         android:alpha="0.7"
-                        android:contentDescription="@string/todowa" />
+                        android:contentDescription="@string/todo" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -309,7 +309,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:src="@drawable/computer"
-                                android:contentDescription="@string/todoee" />
+                                android:contentDescription="@string/todo" />
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
                             android:layout_width="120dp"
@@ -324,7 +324,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:src="@drawable/chemistry"
-                                android:contentDescription="@string/todod" />
+                                android:contentDescription="@string/todo" />
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
                             android:layout_width="120dp"
@@ -441,7 +441,7 @@
                                 android:layout_width="120dp"
                                 android:layout_height="match_parent"
                                 android:src="@drawable/history"
-                                android:contentDescription="@string/todow" />
+                                android:contentDescription="@string/todo" />
                              <TextView
                                  android:layout_width="match_parent"
                                  android:layout_height="wrap_content"
@@ -464,7 +464,7 @@
                                 android:layout_width="120dp"
                                 android:layout_height="match_parent"
                                 android:src="@drawable/computerlib"
-                                android:contentDescription="@string/todos" />
+                                android:contentDescription="@string/todo" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -488,7 +488,7 @@
                                 android:layout_width="120dp"
                                 android:layout_height="match_parent"
                                 android:src="@drawable/read"
-                                android:contentDescription="@string/todoa" />
+                                android:contentDescription="@string/todo" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -537,7 +537,7 @@
                                 android:layout_width="120dp"
                                 android:layout_height="match_parent"
                                 android:src="@drawable/practice"
-                                android:contentDescription="@string/todoss" />
+                                android:contentDescription="@string/todo" />
 
                             <TextView
                                 android:layout_width="match_parent"
