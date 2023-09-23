@@ -88,6 +88,10 @@
                    app:cardUseCompatPadding="true"
                    android:layout_margin="10dp">
 
+                   <ImageView
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:src="@drawable/name_icon"/>
                </androidx.cardview.widget.CardView>
                <androidx.cardview.widget.CardView
                    android:layout_width="360dp"
@@ -96,6 +100,10 @@
                    app:cardUseCompatPadding="true"
                    android:layout_margin="10dp">
 
+                   <ImageView
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:src="@drawable/admission_number_icon"/>
                </androidx.cardview.widget.CardView>
                <androidx.cardview.widget.CardView
                    android:layout_width="360dp"
@@ -104,6 +112,10 @@
                    app:cardUseCompatPadding="true"
                    android:layout_margin="10dp">
 
+                   <ImageView
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:src="@drawable/combination_icon"/>
                </androidx.cardview.widget.CardView>
                <androidx.cardview.widget.CardView
                    android:layout_width="360dp"
@@ -112,6 +124,11 @@
                    app:cardUseCompatPadding="true"
                    android:layout_margin="10dp">
 
+                   <ImageView
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:layout_marginStart="5dp"
+                       android:src="@drawable/phone_number_icon"/>
                </androidx.cardview.widget.CardView>
                <androidx.cardview.widget.CardView
                    android:layout_width="360dp"
@@ -120,14 +137,10 @@
                    app:cardUseCompatPadding="true"
                    android:layout_margin="10dp">
 
-               </androidx.cardview.widget.CardView>
-               <androidx.cardview.widget.CardView
-                   android:layout_width="360dp"
-                   android:layout_height="60dp"
-                   app:cardCornerRadius="10dp"
-                   app:cardUseCompatPadding="true"
-                   android:layout_margin="10dp">
-
+                   <ImageView
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:src="@drawable/email_icon"/>
                </androidx.cardview.widget.CardView>
            </LinearLayout>
 
