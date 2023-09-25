@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+ <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -14,6 +14,7 @@
         android:layout_height="55dp"
         android:background="#283E51"
         android:orientation="horizontal"
+        android:alpha="my name is adam"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -89,9 +90,22 @@
                    android:layout_margin="10dp">
 
                    <ImageView
-                       android:layout_width="50dp"
+                       android:layout_width="40dp"
                        android:layout_height="50dp"
                        android:src="@drawable/name_icon"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                       android:textAlignment="center"
+                       android:text="Adamu Ibrah Ya'u"
+                       android:textStyle="bold|bold"
+                       android:textSize="25sp"/>
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="50dp"
+                       android:layout_gravity="end"
+                       android:src="@drawable/edit_icon"/>
                </androidx.cardview.widget.CardView>
                <androidx.cardview.widget.CardView
                    android:layout_width="360dp"
@@ -101,9 +115,22 @@
                    android:layout_margin="10dp">
 
                    <ImageView
-                       android:layout_width="50dp"
+                       android:layout_width="40dp"
                        android:layout_height="50dp"
                        android:src="@drawable/admission_number_icon"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:textAlignment="center"
+                       android:text="CSC/01/19/0585"
+                       android:textStyle="bold|bold"
+                       android:textSize="25sp"/>
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="50dp"
+                       android:layout_gravity="end"
+                       android:src="@drawable/edit_icon"/>
                </androidx.cardview.widget.CardView>
                <androidx.cardview.widget.CardView
                    android:layout_width="360dp"
@@ -113,9 +140,23 @@
                    android:layout_margin="10dp">
 
                    <ImageView
-                       android:layout_width="50dp"
-                       android:layout_height="50dp"
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:layout_marginTop="5dp"
                        android:src="@drawable/combination_icon"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:textAlignment="center"
+                       android:text="Computer/Chemistry"
+                       android:textStyle="bold|bold"
+                       android:textSize="25sp"/>
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="50dp"
+                       android:layout_gravity="end"
+                       android:src="@drawable/edit_icon"/>
                </androidx.cardview.widget.CardView>
                <androidx.cardview.widget.CardView
                    android:layout_width="360dp"
@@ -125,10 +166,31 @@
                    android:layout_margin="10dp">
 
                    <ImageView
-                       android:layout_width="50dp"
-                       android:layout_height="50dp"
+                       android:layout_width="30dp"
+                       android:layout_height="40dp"
                        android:layout_marginStart="5dp"
+                       android:layout_marginTop="5dp"
                        android:src="@drawable/phone_number_icon"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:textAlignment="center"
+                       android:text="08160807055"
+                       android:textStyle="bold|bold"
+                       android:textSize="25sp"/>
+                   <ImageView
+                       android:layout_width="30dp"
+                       android:layout_height="30dp"
+                       android:layout_marginTop="10dp"
+                       android:layout_gravity="end"
+                       android:layout_marginEnd="40dp"
+                       android:src="@drawable/call_icon"/>
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="50dp"
+                       android:layout_gravity="end"
+                       android:src="@drawable/edit_icon"/>
                </androidx.cardview.widget.CardView>
                <androidx.cardview.widget.CardView
                    android:layout_width="360dp"
@@ -138,9 +200,30 @@
                    android:layout_margin="10dp">
 
                    <ImageView
-                       android:layout_width="50dp"
-                       android:layout_height="50dp"
+                       android:layout_width="35dp"
+                       android:layout_height="40dp"
+                       android:layout_marginTop="5dp"
                        android:src="@drawable/email_icon"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:textAlignment="center"
+                       android:text="realadamweb@gmail.com"
+                       android:textStyle="bold|bold"
+                       android:textSize="25sp"/>
+                   <ImageView
+                       android:layout_width="30dp"
+                       android:layout_height="30dp"
+                       android:layout_gravity="end"
+                       android:layout_marginTop="10dp"
+                       android:layout_marginEnd="40dp"
+                       android:src="@drawable/send_icon"/>
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="50dp"
+                       android:layout_gravity="end"
+                       android:src="@drawable/edit_icon"/>
                </androidx.cardview.widget.CardView>
            </LinearLayout>
 
