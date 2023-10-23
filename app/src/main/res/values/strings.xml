@@ -30,7 +30,10 @@
     <string name="create_password">Create Password</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="serial_no">Serial No.:</string>
+    <string name="username">Admission Number</string>
+    <string name="password">Password</string>
     <string name="register">Register</string>
+    <string name="create_account">Don't have an account?</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="create_new_password">Create New Password</string>
     <string name="enter_the_varfication_code">Enter the varfication code</string>
