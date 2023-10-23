@@ -1,154 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#283E51"
+    android:background="#D6B7B5"
+    android:orientation="vertical"
+    android:padding="15dp"
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:alpha="0.8"
-        android:fontFamily="@font/baloo_chettan"
-        android:text="Login to Albumatic"
+        android:fontFamily="@font/acme"
+        android:text="@string/login"
         android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082" />
+        android:textSize="50sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="185dp"
-        android:layout_height="110dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.033"
-        app:srcCompat="@drawable/ellipse" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="155dp"
-        android:layout_height="107dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-        app:layout_constraintEnd_toEndOf="@+id/imageView6"
-        app:layout_constraintHorizontal_bias="0.533"
-        app:layout_constraintStart_toStartOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.85"
+        android:layout_width="308dp"
+        android:layout_height="145dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         app:srcCompat="@drawable/recover" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="298dp"
-        android:layout_height="48dp"
-        android:background="@drawable/text_field"
-        android:ems="10"
-        android:fontFamily="@font/baloo_chettan"
-        android:hint="Email:"
-        android:padding="15dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.174" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/login_linear_bg"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:elevation="10dp">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="298dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/text_field"
-        android:ems="10"
-        android:fontFamily="@font/baloo_chettan"
-        android:hint="Password:"
-        android:inputType="textPassword"
-        android:padding="15dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-        app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/forgetPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/forget"
-        android:textSize="20sp"
-        android:textColor="#FFD5AA"
-        android:fontFamily="@font/baloo_chettan"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
-        app:layout_constraintVertical_bias="0.041" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="298dp"
-        android:layout_height="48dp"
-        android:background="@drawable/my_btn"
-        android:fontFamily="@font/baloo_chettan"
-        android:text="Login"
-        android:onClick="myButton"
-        android:textAllCaps="false"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/forgetPassword"
-        app:layout_constraintHorizontal_bias="0.0"
 
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
-        app:layout_constraintTop_toBottomOf="@+id/forgetPassword"
-        app:layout_constraintVertical_bias="0.254" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="231dp"
-        android:layout_height="35dp"
-        android:fontFamily="@font/baloo_chettan"
-        android:text="Don't have an Account?"
-        android:textColor="#FFD5AA"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.342" />
-
-    <TextView
-        android:id="@+id/register"
-        android:layout_width="74dp"
-        android:layout_height="24dp"
-        android:background="#FAF0E6"
-        android:fontFamily="@font/squada_one"
-        android:text="@string/link"
-        android:textColor="#EC407A"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView12"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.882" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
