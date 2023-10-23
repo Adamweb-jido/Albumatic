@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D6B7B5"
+    android:background="#D8C6C5"
     android:orientation="vertical"
     android:padding="15dp"
     tools:context=".LoginActivity">
@@ -100,7 +100,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/already_have_an_account"
+            android:text="@string/create_account"
             android:layout_gravity="center"
             android:textSize="20sp"
             android:layout_marginTop="10dp"
