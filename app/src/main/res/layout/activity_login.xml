@@ -38,7 +38,12 @@
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:hint="@string/create"
-         android:textColorHint="@color/white"
+         android:textColorHint="#191816"
+         app:boxCornerRadiusBottomEnd="10dp"
+         app:boxCornerRadiusBottomStart="10dp"
+         app:boxCornerRadiusTopEnd="10dp"
+         app:boxCornerRadiusTopStart="10dp"
+         app:endIconMode="clear_text"
          app:boxStrokeColor="#B8953A"
          android:layout_marginTop="15dp"
          app:boxStrokeWidth="3dp"
@@ -54,8 +59,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/create"
-            android:textColorHint="@color/white"
             app:boxStrokeColor="#B8953A"
+            android:textColorHint="#191816"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:endIconMode="clear_text"
             android:layout_marginTop="15dp"
             app:boxStrokeWidth="3dp"
 
@@ -70,7 +80,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/create"
-            android:textColorHint="@color/white"
+            android:textColorHint="#191816"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:endIconMode="password_toggle"
             app:boxStrokeColor="#B8953A"
             android:layout_marginTop="15dp"
             app:boxStrokeWidth="3dp"
@@ -81,6 +96,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#B8953A"
+            android:textColor="@color/black"
+            android:fontFamily="@font/jockey_one"
+            android:text="@string/login"
+            android:textSize="25sp"
+            app:cornerRadius="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
 
     </LinearLayout>
 
